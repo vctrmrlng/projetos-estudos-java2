@@ -10,7 +10,10 @@ public class Conta {
 	void sacar(double valor) {
 		double saldoAlterado = saldo - valor;
 		saldo = saldoAlterado;
+		// ou em uma linha só saldo = saldo - valor
+		// ou ainda saldo -= valor
 	}
+	
 	void depositar (double valor) {
 		this.saldo = this.saldo + valor;
 	}
