@@ -13,6 +13,8 @@ public class TestaConta {
 		c1.numero = 001;
 		c1.saldo = 2000.00;
 		
+		c2.saldo = 1750.00;
+		
 		System.out.println("=================================");
 		System.out.println("Número da conta: " + c1.numero);
 		System.out.println("Titula: " + c1.nome);
@@ -24,6 +26,8 @@ public class TestaConta {
 		
 		c1.depositar(100);
 		System.out.println("Saldo Atual: " +c1.saldo);
+		
+		System.out.println("Saldo Atual de c2: " +c2.saldo);
 	}
 
 }
