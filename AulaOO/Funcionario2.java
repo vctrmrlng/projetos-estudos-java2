@@ -1,6 +1,6 @@
 package AulaOO;
 
-public class Funcionario {
+public class Funcionario2 {
 	protected String nome;
 	protected String cpf;
 	protected String departamento;
