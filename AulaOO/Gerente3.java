@@ -1,6 +1,6 @@
 package AulaOO;
 
-public class Gerente3 extends FuncionarioAbstract3{
+public class Gerente3 extends FuncionarioAbstract3 implements AcessoInterno{
 	private int senha;
 	
 	public boolean verificaSenha (int senha) {

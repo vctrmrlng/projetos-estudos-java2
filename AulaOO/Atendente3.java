@@ -1,6 +1,6 @@
 package AulaOO;
 
-public class Atendente3 extends FuncionarioAbstract3{
+public class Atendente3 extends FuncionarioAbstract3Especial{
 	int senha;
 	
 	public boolean verificaSenha (int senha) {
@@ -17,8 +17,7 @@ public class Atendente3 extends FuncionarioAbstract3{
 	}
 	@Override
 	public double getBonus() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.salario * 0.17;
 	}
 
 }
