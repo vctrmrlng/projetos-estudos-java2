@@ -15,8 +15,6 @@ public class TesteInicial {
 		
 		System.out.println(i);
 		System.out.println("O valor de l é " +x+"!!");
-		
-		
+		System.out.println(s);
 	}
-
 }
