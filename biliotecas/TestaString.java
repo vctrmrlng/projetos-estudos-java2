@@ -23,14 +23,15 @@ public class TestaString {
 		String n = c.substring(15); //cria uma nova string a partir do indice
 		System.out.println(n);
 		String p = c.trim(); // remove espaços do inicio
-		System.out.println(p);
+		System.out.println("p = "+p);
 		int q = c.indexOf("a");
-		System.out.println(q);
+		System.out.println("q = "+q);
 		int r = c.lastIndexOf("a");
-		System.out.println(r);
+		System.out.println("r = "+r);
 		boolean s = a.isEmpty();
-		System.out.println(s);
+		System.out.println("s = "+s);
 		boolean t = cc.isEmpty();
+		System.out.println("t = "+t);
 		
 		boolean v = a.contains("Java"); //case sensitive
 		System.out.println(v);
