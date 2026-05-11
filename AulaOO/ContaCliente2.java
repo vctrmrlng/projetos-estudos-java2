@@ -17,7 +17,7 @@ public class ContaCliente2 {
 	} 
 	}
 	
-	void depositar (double valor) {
+	public void depositar (double valor) {
 		this.saldo = this.saldo + valor;
 	}
 }
