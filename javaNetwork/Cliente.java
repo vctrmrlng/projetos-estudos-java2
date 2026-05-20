@@ -10,7 +10,7 @@ public class Cliente {
 	public static void main(String[] args) {
 		
 		try {
-			Socket client = new Socket("127.0.0.1", 10001);
+			Socket client = new Socket("127.0.0.1", 10000);
 			
 			Scanner s = new Scanner(System.in);
 			PrintStream out = new PrintStream(client.getOutputStream());
@@ -20,6 +20,8 @@ public class Cliente {
 			while (s.hasNextLine()) {
 				out.println(s.nextLine());
 			}
+			s.close();
+			client.close();
 				
 			
 		} catch (UnknownHostException e) {
